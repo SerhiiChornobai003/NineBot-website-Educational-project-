@@ -1,0 +1,120 @@
+$main-color: rgb(0, 158, 255);
+
+
+
+@import 'libs/bootstrap-reboot.min';
+@import 'blocks/header';
+@import 'blocks/topInfo';
+@import 'blocks/promo';
+@import 'blocks/advantages';
+@import 'blocks/accessories';
+@import 'blocks/2people';
+@import 'blocks/effectiveness';
+@import 'blocks/smartBattery';
+@import 'blocks/stopSystem';
+@import 'blocks/lighterNight';
+@import 'blocks/folding';
+@import 'blocks/regeneration';
+@import 'blocks/oneCable';
+@import 'blocks/types';
+@import 'blocks/downloadSection';
+@import 'blocks/catalogue';
+@import 'blocks/remoteControl';
+@import 'blocks/footer';
+html { 
+    scroll-behavior: smooth;
+}
+
+body { 
+    margin: 0;
+    font-family: 'proxima-nova', sans-serif;
+}
+.container { 
+    width: 950px;
+    margin: 0 auto;
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+    &:hover {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+* { 
+    transition: 0.5s all; 
+}
+.tac { 
+    text-align: center;
+}
+
+
+.show { 
+    display: block;
+    visibility: visible;
+}
+.hidden { 
+    display: none;
+    visibility: hidden;
+}
+
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+.title { 
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.blur {
+    position: absolute;
+    left: -60px;
+    width: 150px;
+    height: 317px;
+    background-color: rgba(58, 117, 247, .5);
+    filter: blur(87px) brightness(75%);
+}
+.button__container { 
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.buy {
+    width: 240px;
+    height: 50px;
+    background-color: $main-color; 
+    color: rgb(255, 255, 255);
+    font-family: Arvo;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 5px;
+}
+.buyNow {
+    width: 240px;
+    height: 50px;
+    background-color: $main-color; 
+    color: rgb(255, 255, 255);
+    font-family: Arvo;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 5px;
+}
+
+button:focus { 
+    outline: none;
+}

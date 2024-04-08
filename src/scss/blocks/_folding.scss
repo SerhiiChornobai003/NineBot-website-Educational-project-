@@ -1,0 +1,17 @@
+.folding { 
+    padding: 75px 0 75px 0;
+    .folding__title { 
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .folding__text { 
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .folding__img { 
+        display: flex;
+        justify-content: center;
+    }
+}

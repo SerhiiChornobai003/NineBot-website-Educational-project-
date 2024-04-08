@@ -1,0 +1,91 @@
+.remoteControl {
+    display: flex;
+    background: rgba(255, 255, 255, 0.2) linear-gradient(0.00deg, rgb(238, 238, 238),rgba(245, 245, 245, 0.79) 43.809%,rgba(255, 255, 255, 0) 82.465%);
+    .container {
+        padding: 60px 0 80px 0; 
+        background: url('../img/phoneInHand.png') right bottom no-repeat;
+    }
+
+    .remoteControl__title { 
+        color: rgb(50, 57, 65);
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 119.3%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .remoteControl__descr { 
+        color: rgb(50, 57, 65);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .remoteControl__wrapper { 
+        display: flex;
+        width: 400px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .remoteControl__item {
+            width: 110px;
+            margin: 0 0 15px 0;
+            cursor: pointer;
+            &:nth-child(3) { 
+                margin-right: 0;
+            } 
+            &:last-child { 
+                margin-right: 0;
+            }
+            &:hover {
+                .remoteControl__img { 
+                    border: 2px solid $main-color;
+                    background: $main-color;
+                    svg path { 
+                        fill: #ffffff;
+                    }
+
+                }
+                .remoteControl__wrapper-descr { 
+                    color: $main-color;
+                    font-weight: 700;
+                }
+                
+            }
+            .remoteControl__img { 
+                width: 110px;
+                height: 110px;
+                background: transparent;
+                border: 2px solid rgba(204, 204, 204);
+                border-radius: 10px;
+                transition: .5s all;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                svg { 
+                    max-width: 55px;
+
+                }          
+            }
+            .remoteControl__wrapper-descr {
+                color: rgb(179, 179, 179);
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 119.3%;
+                margin-top: 10px;
+                transition: 0.5s all;
+            }
+        }
+        .app__icon {
+            margin-top: 10px; 
+            width: 135px;
+            height: 40px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

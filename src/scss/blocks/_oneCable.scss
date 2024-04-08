@@ -1,0 +1,23 @@
+.oneCableCharge { 
+    padding: 70px 0 120px;
+    background: url('../img/oneCableCharge.jpeg') left top no-repeat;
+    .oneCableCharge__wrapper {
+        width: 600px;
+        margin-left: 470px;
+        .oneCableCharge__title { 
+            color: rgb(50, 57, 65);
+            font-size: 50px;
+            font-weight: 700;
+            text-align: left;
+            text-transform: uppercase;
+        }
+        .oneCableCharge__text {
+            margin-top: 50px; 
+            color: rgb(50, 57, 65);
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: left;
+        }
+    }
+}

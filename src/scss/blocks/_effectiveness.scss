@@ -1,0 +1,35 @@
+.effectiveness {
+    background: rgb(245, 245, 245); 
+    padding: 63px 0 70px 0;
+    &__wrapper {
+        margin-top: 80px; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        .effectiveness__item {
+            width: 160px;
+            margin: 0px 30px 30px 30px;
+            .effectiveness__title {
+                font-size: 30px; 
+                background: linear-gradient(180.00deg, rgb(0, 158, 255),rgb(0, 123, 205));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            .effectiveness__img {
+                height: 105px;
+                display: flex;
+                justify-content: center;
+            }
+            .effectiveness__text { 
+                color: rgb(153, 153, 153);
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        
+    }
+}
+
+
+ 

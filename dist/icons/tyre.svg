@@ -1,0 +1,18 @@
+<svg width="100.000000" height="100.000000" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip125_978">
+			<rect id="172557_speedometer_icon 3" width="100.000000" height="100.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="172557_speedometer_icon 3" width="100.000000" height="100.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip125_978)">
+		<circle id="Ellipse 8" cx="50.000000" cy="50.000000" r="23.000000" stroke="#999999" stroke-opacity="1.000000" stroke-width="2.000000"/>
+		<path id="Ellipse 9" d="M73.1978 19.9023Q69.2075 16.8269 64.6191 14.9246L65.3853 13.0771Q70.2183 15.0808 74.4185 18.3181L73.1978 19.9023Z" fill="#009EFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Ellipse 10" d="M86.7051 59.8354Q89.3467 49.9775 86.7046 40.1685Q84.0654 30.3096 76.8711 23.1309L78.2837 21.7151Q85.8584 29.2734 88.6357 39.6479Q91.4175 49.9761 88.6372 60.353L86.7051 59.8354Z" fill="#009EFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Ellipse 11" d="M13.1436 59.2539Q14.9917 66.6143 19.4863 72.6562Q24.0229 78.7544 30.4805 82.604L29.4561 84.3218Q22.6562 80.2681 17.8818 73.8501Q13.1489 67.4883 11.2041 59.7407L13.1436 59.2539Z" fill="#009EFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<circle id="Ellipse 7" cx="50.000000" cy="50.000000" r="44.000000" stroke="#999999" stroke-opacity="1.000000" stroke-width="2.000000"/>
+	</g>
+</svg>

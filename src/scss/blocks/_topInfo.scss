@@ -1,0 +1,48 @@
+.topInfo { 
+    padding-top: 20px;
+    .topInfo__wrapper { 
+        display: flex;
+        justify-content: space-between;
+        .topInfo__item {
+            display: flex;
+            align-items: center;
+            .text-container {
+                display: flex;
+                flex-direction: column;
+                .text__top {
+                    margin-left: 15px;
+                }
+                .text__bottom {
+                    margin-left: 15px; 
+                    a { 
+                        color: $main-color;
+                        text-decoration: underline;
+                        &:hover {
+                            color: $main-color;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }  
+        }
+    }
+    .blueLine {
+        margin-top: 20px; 
+        height: 48px;
+        background-color: $main-color;
+        &__text { 
+            text-align: center;
+            line-height: 48px;
+            color: white;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+
+
+
+
+
+

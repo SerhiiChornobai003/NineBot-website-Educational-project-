@@ -1,0 +1,28 @@
+.lighterNight {
+    min-height: 540px; 
+    background: url('../img/light_bg.png') right no-repeat #0E0E16;
+    padding: 150px 0 110px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    .lighterNight__wrapper {
+        display: flex;
+        flex-direction: column;
+        .lighterNight__title {
+            width: 70%; 
+            font-size: 50px;
+            font-weight: 700;
+            color: rgb(255, 255, 255);
+        }
+        .lighterNight__descr {
+            width: 70%; 
+            font-size: 18px;
+            font-weight: 400;
+            color: rgb(255, 255, 255);
+            span { 
+                color: rgb(108, 108, 108);
+            }
+        }
+      }
+    
+
+    
+}

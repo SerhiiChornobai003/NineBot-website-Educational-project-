@@ -1,0 +1,20 @@
+.regeneration { 
+    min-height: 547px;
+    background: url('../img/regeneration__img.png') right top no-repeat, #0E0E16;
+    padding-top: 75px;
+    .regeneration__title { 
+        font-size: 50px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    .regeneration__text {
+        width: 600px; 
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    .blur { 
+        margin-top: 140px;
+    }
+
+}

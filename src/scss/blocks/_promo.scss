@@ -1,0 +1,97 @@
+.promo { 
+    position: relative;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    .promo__wrapper {
+        display: flex;
+        flex-direction: row;
+        .scooter__name {
+            width: 550px;
+            text-transform: uppercase;
+            font-weight: 700; 
+            font-size: 70px;
+        }
+        .scooter__img {
+            width: 375px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-items: start;
+            img { 
+                position: absolute;
+                top: 0px;
+                right: 0px; 
+            }
+        }
+    }
+    .pricetag {
+        width: 550px;
+        height: 290px;
+        padding: 20px;
+        border: 2px solid rgba(153, 153, 153,0.33); 
+        
+    }
+    .ability { 
+        font-size: 18px;
+    }
+    .pricetag__wrapper {
+        display: flex;
+        justify-content: space-between;
+        .warrantyPrice {
+            font-size: 13px;
+            margin-top: 10px;
+            width: 160px;
+            height: 35px; 
+            border: 2px solid rgba(153, 153, 153,0.33);
+            text-align: center;
+            line-height: 35px;
+            &:hover { 
+                background: $main-color;
+                color: white;
+                font-weight: 700;
+            }
+        }  
+    }
+
+    .prices__wrapper { 
+        color: rgb(50, 57, 65);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        display: flex;
+        justify-content: space-evenly; 
+        .prices__item {
+            margin-top: 25px;
+            width: 168px;
+            img { 
+                margin-left: 55px;    
+            }
+
+            .exPrice { 
+                text-decoration: line-through;
+            }
+            .currentPrice { 
+                font-size: 35px;
+            }
+            span { 
+                color: $main-color;
+                text-align: center;
+            }
+        }
+    }
+    .payment__methods { 
+        margin-top: 20px;
+        color: rgb(153, 153, 153);
+        img {
+            margin-top: 10px; 
+            width: 35px;
+            height: 23px;
+            margin-right: 2px;
+            &:last-child { 
+                margin-right: 0;
+            }
+        }
+    }
+    
+}

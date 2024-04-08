@@ -1,0 +1,67 @@
+.accessories { 
+    padding: 80px 0 160px 0;
+    .accessories_text { 
+        padding-bottom: 30px;
+    }
+    .accessories__wrapper { 
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .accessories__item {
+            margin-bottom: 60px;
+            width: 295px;
+            min-height: 370px;
+            .accessories__title {
+                margin-top: 15px;    
+                color: rgb(50, 57, 65);
+                width: 295px;
+                height: 80px;
+                font-size: 26px;
+                font-weight: 700;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            .accessories__img { 
+                display: flex;
+                justify-content: center;
+                height: 155px;
+                
+            }
+            .accessories__descr {
+                min-height: 100px; 
+                margin-top: 15px;
+                color: rgb(153, 153, 153);
+                font-size: 13px;
+                font-weight: 400;
+
+            }
+            .btn { 
+                display: flex;
+                justify-content: center;
+                .addToCart {
+                    margin-top: 11px;
+                    width: 130px;
+                    height: 40px;
+                    background-color: transparent; 
+                    color: rgba(198, 198, 198, .8);
+                    font-family: Arvo;
+                    font-size: 18px;
+                    font-weight: 700;
+                    text-align: center;
+                    text-transform: uppercase;
+                    border: 1px solid rgb(198, 198, 198);
+                    &:hover { 
+                        background-color: $main-color;
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+            .accessories__price { 
+                color: rgb(50, 57, 65);
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+    }
+}

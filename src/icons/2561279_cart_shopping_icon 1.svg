@@ -1,0 +1,16 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip195_2551">
+			<rect id="2561279_cart_shopping_icon 1" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="2561279_cart_shopping_icon 1" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip195_2551)">
+		<path id="Vector" d="M8 23C6.89551 23 6 22.1046 6 21C6 19.8954 6.89551 19 8 19C9.10449 19 10 19.8954 10 21C10 22.1046 9.10449 23 8 23Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.592920" stroke-linejoin="round"/>
+		<path id="Vector" d="M20 23C18.8955 23 18 22.1046 18 21C18 19.8954 18.8955 19 20 19C21.1045 19 22 19.8954 22 21C22 22.1046 21.1045 23 20 23Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.592920" stroke-linejoin="round"/>
+		<path id="Vector" d="M5.66992 5.99994L23 5.99994L21.3198 14.39C21.2285 14.8503 20.978 15.2639 20.6123 15.5582C20.2466 15.8526 19.7891 16.0089 19.3198 15.9999L8.75 15.9999C8.26172 16.0041 7.78857 15.8294 7.42041 15.5089C7.05176 15.1884 6.81348 14.7441 6.75 14.2599L5.22998 2.73993C5.16699 2.25916 4.93164 1.81769 4.56738 1.49762C4.20312 1.17755 3.73486 1.00067 3.25 0.999939L1 0.999939" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.592920" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>

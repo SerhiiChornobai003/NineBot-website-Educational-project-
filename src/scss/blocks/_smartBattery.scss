@@ -1,0 +1,17 @@
+.smartBattery { 
+    padding: 153px 0 140px 0;
+    background: url('../../img/smartBMS.png') right no-repeat, linear-gradient(90deg, rgb(14, 14, 22) 1.444%, rgb(14, 14, 22) 100%) left ;
+    .smartBattery__title { 
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .smartBattery__descr {
+        width: 650px; 
+        font-size: 18px;
+        font-weight: normal;
+    }
+}
